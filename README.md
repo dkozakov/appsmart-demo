@@ -13,4 +13,11 @@ This repository contains an implementation of the test task for App Smart
 
 ## Test the application
 - http://192.168.99.100:8080/swagger-ui.html
-- Use demo/demo for authentication
+- To retrieve authorization token ```post```
+```json
+{
+    "userName": "demo",
+    "password": "demo"
+}
+```
+to http://192.168.99.100:8080/auth
